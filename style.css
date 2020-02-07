@@ -1,13 +1,23 @@
+@font-face{
+    font-family: "open-sans" ;
+    src: url(./type/Open_Sans/OpenSans-Regular.ttf);
+
+}
+
+
 html, body {
     margin: 0;
     padding: 0;
 }
 h1,h2,h3,h4,h5,h6 {
+    font-size: 3rem;
     margin-top: 0;
+    font-family: 'Bebas Neue', cursive;
 }
 body > * {
     box-sizing: border-box;
     font-size: 1rem;
+    font-family: "open-sans";
 }
 .items {
     display: flex;
